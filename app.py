@@ -6,10 +6,11 @@ except ImportError:
   from llama_index.core import VectorStoreIndex, ServiceContext, Document, SimpleDirectoryReader
 import openai
 
-st.set_page_config(page_title="Chat with the Streamlit docs, powered by LlamaIndex", page_icon="🦙", layout="centered", initial_sidebar_state="auto", menu_items=None)
+st.set_page_config(page_title="Harish's Bot", page_icon=" 🤖📚", layout="wide", initial_sidebar_state="auto", menu_items=None)
 openai.api_key = st.secrets["my_cool_secrets"]["openai_key"]
 
 st.write(openai.api_key)
+st.title("Chat with me to know more about Harish")
 
 #[my_cool_secrets]
 #openai_key = "sk-proj-tMubK0K5nswmWfUCDMjhT3BlbkFJmvMJhM5PiUk8Gnj8F6CI"
