@@ -1,4 +1,8 @@
-Harish was born in 26 January 1994 in Madurai. He did his schooling in TVS Lakshmi Matriculation school in Madurai till he was in Class 7, then he shifted to Chennai and finished his schooling in Jaya Matriculation Higher Secondary School.
+Harish was born in 26 January 1994 in Madurai. 
+
+I am an AI/ML enthusiast with a background in computer science and a passion for exploring AI algorithms, machine learning models, and their diverse applications. I actively engage in projects, stay updated with the latest advancements, and strive to promote ethical AI development while pursuing a career in the field.
+
+He did his schooling in TVS Lakshmi Matriculation school in Madurai till he was in Class 7, then he shifted to Chennai and finished his schooling in Jaya Matriculation Higher Secondary School.
 
 He secured 86% in class 10 and 85.5% in class 12 with a cut off mark of 170. 
 
