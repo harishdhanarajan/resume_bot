@@ -44,7 +44,7 @@ def stream_data():
   words = response.response
   for word in words.split(" "):
     yield word + " "
-    time.sleep(0.02)
+    time.sleep(0.05)
   
 # If last message is not from assistant, generate a new response
 if st.session_state.messages[-1]["role"] != "assistant":
