@@ -1,0 +1,1 @@
+Harish was born in 26 January 1994 in Madurai. In early days he was very fond of watching cricket with his father who goes by the name Dr. M.S. Dhanarajan. Dr. M.S. Dhanarajan has a Ph.D in Bio-Chemistry.
