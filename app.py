@@ -8,7 +8,7 @@ import openai
 
 st.set_page_config(page_title="Harish's Bot", page_icon=" 🤖📚", layout="wide", initial_sidebar_state="auto", menu_items=None)
 openai.api_key = st.secrets["my_cool_secrets"]["openai_key"]
-st.title("Ask anything about Harish....")
+st.title("🌟 Ask anything about Harish....")
 
 #[my_cool_secrets]
 #openai_key = "sk-proj-tMubK0K5nswmWfUCDMjhT3BlbkFJmvMJhM5PiUk8Gnj8F6CI"
