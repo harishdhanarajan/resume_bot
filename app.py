@@ -40,7 +40,6 @@ for message in st.session_state.messages: # Display the prior chat messages
         st.write(message["content"])
       
 def stream_data():
-  words = response.response
   for word in words.split(" "):
     yield word + " "
     time.sleep(0.05)
@@ -50,6 +49,7 @@ if st.session_state.messages[-1]["role"] != "assistant":
     with st.chat_message("assistant"):
         with st.spinner("Thinking..."):
             response = st.session_state.chat_engine.chat(prompt)
+            words = response.response
             st.write_stream(stream_data)
             message = {"role": "assistant", "content": stream_data}
             st.session_state.messages.append(message) # Add response to message history
