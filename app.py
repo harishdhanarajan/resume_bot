@@ -10,7 +10,7 @@ st.set_page_config(page_title="Harish's Bot", page_icon=" 🤖📚", layout="wid
 openai.api_key = st.secrets["my_cool_secrets"]["openai_key"]
 st.title("🌟 Ask anything about Harish....")
 
-st.info("Check Out my Portfolio [here](https://blog.streamlit.io/build-a-chatbot-with-custom-data-sources-powered-by-llamaindex/) !", icon="📃")
+st.info("Check Out my Complete Portfolio [here](https://harishdhanarajan.streamlit.app/) !", icon="📃")
 
 #[my_cool_secrets]
 #openai_key = "sk-proj-tMubK0K5nswmWfUCDMjhT3BlbkFJmvMJhM5PiUk8Gnj8F6CI"
