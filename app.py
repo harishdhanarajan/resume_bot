@@ -14,7 +14,7 @@ st.info("Check Out my Complete Portfolio [here](https://harishdhanarajan.streaml
 #Initiate the Session and Create a temp memory
 if "messages" not in st.session_state.keys():
     st.session_state.messages = [
-        {"role": "assistant", "content": "Ask my anything about Harish (I am still under training, Apologies if I wasn't able to answer you!!"}
+        {"role": "assistant", "content": "Ask my anything about Harish FYI, I am still being Trained by Mr. Harish, Apologies if I wasn't able to answer you!!)"}
     ]
 
 @st.cache_resource(show_spinner=False)
