@@ -31,7 +31,7 @@ index = load_data()
 if "chat_engine" not in st.session_state.keys(): # Initialize the chat engine
         st.session_state.chat_engine = index.as_chat_engine(chat_mode="context", verbose=True)
 
-if prompt := st.chat_input("Why Should I Hire Harish in my company"): # Prompt for user input and save to chat history
+if prompt := st.chat_input("Why Should I Hire Harish in my company / What are the technical intiatives by Harish"): # Prompt for user input and save to chat history
     st.session_state.messages.append({"role": "user", "content": prompt})
 
 for message in st.session_state.messages: # Display the prior chat messages
