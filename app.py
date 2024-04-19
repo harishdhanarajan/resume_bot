@@ -14,7 +14,7 @@ st.info("Check Out my Complete Portfolio [here](https://harishdhanarajan.streaml
 #Initiate the Session and Create a temp memory
 if "messages" not in st.session_state.keys():
     st.session_state.messages = [
-        {"role": "assistant", "content": "I am a Beta Version and Still Under Training by Mr. Harish!!"}
+        {"role": "assistant", "content": "I am a Beta Version and Still Under Training by Harish!!"}
     ]
 
 @st.cache_resource(show_spinner=False)
@@ -29,9 +29,9 @@ def load_data():
 index = load_data()
 
 if "chat_engine" not in st.session_state.keys(): # Initialize the chat engine
-        st.session_state.chat_engine = index.as_chat_engine(chat_mode="condense_question", verbose=True)
+        st.session_state.chat_engine = index.as_chat_engine(chat_mode="context", verbose=True)
 
-if prompt := st.chat_input("Your question"): # Prompt for user input and save to chat history
+if prompt := st.chat_input("Tell something about Harish"): # Prompt for user input and save to chat history
     st.session_state.messages.append({"role": "user", "content": prompt})
 
 for message in st.session_state.messages: # Display the prior chat messages
