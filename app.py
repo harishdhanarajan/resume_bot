@@ -52,5 +52,5 @@ if st.session_state.messages[-1]["role"] != "assistant":
         with st.spinner("Thinking..."):
             #response = st.session_state.chat_engine.chat(prompt)
             st.write_stream(stream_data)
-            message = {"role": "assistant", "content": response.response}
+            message = {"role": "assistant", "content": stream_data}
             st.session_state.messages.append(message) # Add response to message history
