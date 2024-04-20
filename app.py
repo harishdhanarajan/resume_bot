@@ -8,7 +8,7 @@ import openai
 
 
 st.set_page_config(page_title="Harish's Bot", page_icon= "🤖📚", layout="centered",initial_sidebar_state="collapsed")
-st.subheader("", divider=rainbow)
+st.subheader(" ", divider=rainbow)
 openai.api_key = st.secrets.openai_key
 gradient_text_html = """
 <style>
