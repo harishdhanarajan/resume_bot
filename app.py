@@ -64,11 +64,3 @@ if st.session_state.messages[-1]["role"] != "assistant":
             message = {"role": "assistant", "content": response.response}
             st.session_state.messages.append(message)
 
-hide_st_style ="""
-MainMenu {visibility: hidden;}
-footer {visibility: hidden;}
-header {visibility: hidden;}
-"""
-
-st.markdown(hide_st_style,
-unsafe_allow_html=True)
