@@ -1,19 +1,9 @@
-# snowChat
+# betaChat
 
-SnowChat is an intuitive and user-friendly application that allows you to interact with your Snowflake data using natural language queries. Type in your questions or requests, and SnowChat will generate the appropriate SQL query and return the data you need.
-
+betaChat is an user-friendly application that allows you to interact and get to know more about Harish. Type in your questions or requests, and betaChat will generate the appropriate answers for it.
 ## Features
 
-- **Conversational AI**: Harnesses ChatGPT to translate natural language into precise SQL queries.
-- **Conversational Memory**: Retains context for interactive, dynamic responses.
-- **Snowflake Integration**: Offers seamless, real-time data insights straight from your Snowflake database.
-- **Self-healing SQL**: Proactively suggests solutions for SQL errors, streamlining data access.
-- **Interactive User Interface**: Transforms data querying into an engaging conversation, complete with a chat reset option.
-
-Here are some example queries you can try with SnowChat:
-
-- Write SQL code to show me the total revenue for each product category.
-- Who are the top 10 customers by sales?
-- What is the average order value for each region?
-- How many orders were placed last week?
-- Display the list of products with their prices.
+- **GPT 3.5 Turbo**: This chatbot uses GPT 3.5 Turbo model from OpenAI to provide accurate results.
+- **Chat Mode**: It is Context based that Retains context for interactive, dynamic responses.
+- **LlamaIndex Integration**: Offers seamless, better knowledge generation from my own base.
+- **Interactive User Interface**: Transforms an user's question into an engaging conversation, and also has a chat reset option below.
