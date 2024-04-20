@@ -27,7 +27,7 @@ gradient_text_html = """
 
 st.markdown(gradient_text_html, unsafe_allow_html=True)
 
-st.info(":rainbow[Check Out Harish's Complete Portfolio [here](https://harishdhanarajan.streamlit.app/) !]", icon="📃")
+st.info(":rainbow[[Check Out Harish's Complete Portfolio here](https://harishdhanarajan.streamlit.app/) !]", icon="📃")
 
 INITIAL_MESSAGE = [
         {"role": "assistant", "content": ":red[Hey there! I'm Chatty Sasha, ready to answer questions about Harish. Use the Arrow on left top corner to know more about this application.]"}
