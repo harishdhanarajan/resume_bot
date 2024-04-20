@@ -25,7 +25,8 @@ gradient_text_html = """
 <div class="gradient-text">Ask Me About Harish....</div>
 """
 
-st.markdown(gradient_text_html, unsafe_allow_html=True)
+st.markdown('''
+    :red[Chat] :orange[with] :green[me] :blue[about] :rainbow[Harish....].''', unsafe_allow_html=True)
 
 st.info("Check Out my Complete Portfolio [here](https://harishdhanarajan.streamlit.app/) !", icon="📃")
 
