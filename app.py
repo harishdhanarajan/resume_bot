@@ -29,11 +29,23 @@ st.markdown(gradient_text_html, unsafe_allow_html=True)
 
 st.info("Check Out my Complete Portfolio [here](https://harishdhanarajan.streamlit.app/) !", icon="📃")
 
-#Initiate the Session and Create a temp memory
-if "messages" not in st.session_state.keys():
-    st.session_state.messages = [
+INITIAL_MESSAGE = [
         {"role": "assistant", "content": ":rainbow[I am a Beta Version and Still Under Training by Harish!!]"}
     ]
+if st.sidebar.button("Reset Chat"):
+    for key in st.session_state.keys():
+        del st.session_state[key]
+    st.session_state["messages"] = INITIAL_MESSAGE
+    st.session_state["history"] = []
+
+st.sidebar.markdown(
+    "**Note:** <span style='color:red'>This is a Beta Version, Still Being Trained.</span>",
+    unsafe_allow_html=True,
+)
+
+#Initiate the Session and Create a temp memory
+if "messages" not in st.session_state.keys():
+    st.session_state.messages = INITIAL_MESSAGE
 
 @st.cache_resource(show_spinner=False)
 def load_data():
@@ -73,7 +85,4 @@ hide_st_style = """
             """
 st.markdown(hide_st_style, unsafe_allow_html=True)     
 
-def reset_conversation():
-  st.session_state.conversation = None
-  st.session_state.chat_history = None
-st.sidebar.button('Reset Chat', on_click=reset_conversation)
+
