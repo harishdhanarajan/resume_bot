@@ -29,6 +29,14 @@ st.markdown(gradient_text_html, unsafe_allow_html=True)
 st.caption("Talk your way through")
 st.info(":rainbow[[Check Out Harish's Complete Portfolio here](https://harishdhanarajan.streamlit.app/) !]", icon="📃")
 
+with open("sidebar/sidebar.md", "r") as sidebar_file:
+    sidebar_content = sidebar_file.read()
+
+with open("sidebar/styles.md", "r") as styles_file:
+    styles_content = styles_file.read()
+
+st.sidebar.markdown(sidebar_content)
+
 INITIAL_MESSAGE = [
         {"role": "assistant", "content": ":red[Hey there! I'm Chatty Sasha, ready to answer questions about Harish. Use the Arrow on left top corner to know more about this application.]"}
     ]
@@ -42,6 +50,8 @@ st.sidebar.markdown(
     "**Note:** <span style='color:red'>This is a Beta Version, Still Being Trained.</span>",
     unsafe_allow_html=True,
 )
+
+st.write(styles_content, unsafe_allow_html=True)
 
 #Initiate the Session and Create a temp memory
 if "messages" not in st.session_state.keys():
