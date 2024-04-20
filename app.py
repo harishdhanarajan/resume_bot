@@ -30,7 +30,7 @@ st.markdown(gradient_text_html, unsafe_allow_html=True)
 st.info(":rainbow[Check Out Harish's Complete Portfolio [here](https://harishdhanarajan.streamlit.app/) !]", icon="📃")
 
 INITIAL_MESSAGE = [
-        {"role": "assistant", "content": ":rainbow[Hey there! I'm Chatty Sasha, ready to answer questions about Harish. I am an alternate attempt for his resume!! Use the Arrow on left top corner to know more about Chatty Sasha.]"}
+        {"role": "assistant", "content": ":red[Hey there! I'm Chatty Sasha, ready to answer questions about Harish. I am an alternate attempt for his resume!! Use the Arrow on left top corner to know more about Chatty Sasha.]"}
     ]
 if st.sidebar.button("Reset Chat"):
     for key in st.session_state.keys():
