@@ -7,7 +7,8 @@ except ImportError:
 import openai
 
 
-st.set_page_config(page_title="Harish's Bot", page_icon=" 🤖📚", layout="wide",menu_items=False)
+st.set_page_config(page_title="Harish's Bot", page_icon=" 🤖📚", layout="wide", 
+initial_sidebar_state="collapsed", menu_items={"hide_menu": True, "hide_fork": True})
 
 openai.api_key = st.secrets.openai_key
 gradient_text_html = """
