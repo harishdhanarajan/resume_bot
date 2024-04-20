@@ -65,7 +65,7 @@ if st.session_state.messages[-1]["role"] != "assistant":
             st.session_state.messages.append(message)
 
 hide_st_style ="""
-#MainMenu {visibility: hidden;}
+MainMenu {visibility: hidden;}
 footer {visibility: hidden;}
 header {visibility: hidden;}
 """
