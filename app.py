@@ -72,3 +72,8 @@ hide_st_style = """
             </style>
             """
 st.markdown(hide_st_style, unsafe_allow_html=True)     
+
+def reset_conversation():
+  st.session_state.conversation = None
+  st.session_state.chat_history = None
+st.sidebar.button('Reset Chat', on_click=reset_conversation)
