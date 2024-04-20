@@ -26,7 +26,7 @@ gradient_text_html = """
 """
 
 st.markdown(gradient_text_html, unsafe_allow_html=True)
-
+st.caption("Talk your way through")
 st.info(":rainbow[[Check Out Harish's Complete Portfolio here](https://harishdhanarajan.streamlit.app/) !]", icon="📃")
 
 INITIAL_MESSAGE = [
