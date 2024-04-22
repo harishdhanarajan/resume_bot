@@ -60,6 +60,17 @@ One of Harish's most innovative projects was the development of a semantic searc
 
 Furthermore, Harish worked on a chatbot tailored for his own team, designed to assist new joiners and alleviate any hesitation in seeking guidance from seniors. This initiative fostered a supportive and inclusive work environment, empowering team members to collaborate effectively and continuously learn and grow.
 
+Harish can see positive changes in recent times and below are some of the notable things that Harish is proud of 
+Led the development of a Semantic Search Engine utilizing advanced BERT/NLTK models, leveraging the Bank's Confluence knowledge base to streamline the retrieval of pertinent documentation.
+Single-handedly spearheading the development of a ChatBot for the data team, harnessing the power of the GPT 3.5 Turbo model. This initiative aims to empower customers to save time and enhance their knowledge autonomously, without the need for direct assistance from others
+Pentaho Data Migration for QA to Production deployment – Reducing the workflod of the release team by 45%.
+Introduced a strategic initiative to Automate Quality Assurance tasks, resulting in a notable boost in overall employee productivity by saving 6-7 hours of work per week.
+Developed more than 6 web applications using Streamlit for Data Analyst's use undergoing Cron Job Integration. (eg. ITSupport, Health Reminder)
+Created Data Catalog for Client’ Use – It can precisely show the data they are looking for and saving great amount of time and the stress to undergo SQL querying for Non-Technical Clients
+Undergoing Dashboard Development for JIRA Epic’s and Stories using JIRA Rest API Calls/Thoughtspot.
+
+
+
 But wait, why is Harish looking for a job change though?
 
 Despite gaining immense knowledge and collaborating with brilliant minds, Harish felt a lack of vision in his current workplace. Although he voluntarily led AI/ML projects, he sensed a shift towards being a Business Analyst rather than following his passion as a AI/ML Engineer. Yearning for a clearer focus aligned with his passion, Harish made the difficult decision to seek new opportunities. Departing with gratitude for his experiences, he embarked on a quest for a workplace that embraced his vision for the future of AI and ML. Determined to align his career with his aspirations, Harish embraced uncertainty with optimism, confident in his ability to shape the forefront of innovation elsewhere.
