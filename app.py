@@ -38,7 +38,7 @@ with open("sidebar/styles.md", "r") as styles_file:
 st.sidebar.markdown(sidebar_content)
 
 INITIAL_MESSAGE = [
-        {"role": "assistant", "content": ":red[Hey there! I'm Chatty Sasha, ready to answer questions about Harish. Use the Arrow on left top corner to know more about this application.]"}
+        {"role": "assistant", "content": ":red[Hey there! I'm Chatty Sasha (Beta), ready to answer questions about Harish. Use the Arrow on left top corner to know more about this application.]"}
     ]
 if st.sidebar.button("Reset Chat"):
     for key in st.session_state.keys():
@@ -71,7 +71,7 @@ index = load_data()
 if "chat_engine" not in st.session_state.keys(): # Initialize the chat engine
         st.session_state.chat_engine = index.as_chat_engine(chat_mode="context", verbose=True)
 
-if prompt := st.chat_input("What are the technical intiatives taken by Harish"): # Prompt for user input and save to chat history
+if prompt := st.chat_input("Technical intiatives taken by Harish / His Proud achievements"): # Prompt for user input and save to chat history
     st.session_state.messages.append({"role": "user", "content": prompt})
 
 for message in st.session_state.messages: # Display the prior chat messages
