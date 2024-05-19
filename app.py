@@ -38,7 +38,7 @@ with open("sidebar/styles.md", "r") as styles_file:
 st.sidebar.markdown(sidebar_content)
 
 INITIAL_MESSAGE = [
-        {"role": "assistant", "content": ":red[Hey there! I'm Chatty Sasha (Beta), ready to answer questions about Harish. Use the Arrow on left top corner to know more about this application.]"}
+        {"role": "assistant", "content": ":red[Hey there! I'm Sasha (Beta), ready to answer questions about Harish. Use the Arrow on left top corner to know more about this application.]"}
     ]
 if st.sidebar.button("Reset Chat"):
     for key in st.session_state.keys():
