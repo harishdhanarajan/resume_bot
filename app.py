@@ -6,7 +6,6 @@ except ImportError:
   from llama_index.core import VectorStoreIndex, ServiceContext, Document, SimpleDirectoryReader
 import openai
 
-= "sk-proj-GOgJzknM0p1xjM4tdqkxT3BlbkFJHBBywcC8JPNquSvkpzP4"
 st.set_page_config(page_title="🤖 Harish's Bot", page_icon= "🤖📚", layout="centered",initial_sidebar_state="collapsed")
 st.subheader(" ", divider='rainbow')
 openai.api_key = st.secrets.openai_key
